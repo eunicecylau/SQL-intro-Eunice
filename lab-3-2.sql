@@ -3,8 +3,8 @@
 SELECT AVG(wins), name
 FROM teams
 WHERE year > 2000
-ORDER BY year
 GROUP BY name;
+
 
 -- Expected result:
 --
